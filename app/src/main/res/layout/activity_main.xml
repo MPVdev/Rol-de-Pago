@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/lblTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="36dp"
+        android:text="Rol de Pago"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtCargo"
+        android:layout_width="230dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="176dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/Vacio"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_width="230dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="96dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/Vacio"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lblCargo"
+        android:layout_width="70dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="208dp"
+        android:text="Cargo: "
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lblNombre"
+        android:layout_width="96dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="124dp"
+        android:text="Nombre: "
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lblHijos"
+        android:layout_width="115dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="468dp"
+        android:text="# de Hijos: "
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lblExtras"
+        android:layout_width="122dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="384dp"
+        android:text="Horas Extras:"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lblAntigue"
+        android:layout_width="118dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="304dp"
+        android:text="Antiguedad:"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtHorasExtras"
+        android:layout_width="230dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="352dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/Vacio"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtAntiguedad"
+        android:layout_width="233dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="264dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/Vacio"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtHijos"
+        android:layout_width="230dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="436dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/Vacio"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnEnviar"
+        android:layout_width="174dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginBottom="68dp"
+        android:onClick="Enviar"
+        android:text="Enviar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
